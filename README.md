@@ -10,7 +10,7 @@
 ## Run Setup
 
 ``` bash
-# install dependencies
+# clone repo
 git clone https://github.com/gmeneguz/vue-firebase-chat.git
 
 # install dependencies
