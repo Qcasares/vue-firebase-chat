@@ -6,6 +6,10 @@
 
 > The purpose of this project is to show some Vue's features.
 
+# Sample
+
+> url: https://vue-webchat.firebaseapp.com  
+> key: TDC**VUE
 
 ## Run Setup
 
@@ -28,8 +32,10 @@ npm run build
  - Clone this repo
  - Create a project on [Firebase](https://console.firebase.google.com/) (free)
  - Click on Add Web App. It will show the initialization code. Copy the content of the **config** object and paste inside **firebaseConfig** const on src/db/config.js.
- - Activate Email Authentication in Firebase Console of your project (https://console.firebase.google.com/?hl=pt-br) and create a single user with an email and password (I used default@default.com)
- - It should generate an Id for the user, copy the id and paste the following in your Database Rules [https://console.firebase.google.com/project/{{YOUR_PROJECT_NAME}}/database/rules]:
+ - Activate Email Authentication in Firebase Console of your project (https://console.firebase.google.com/) and create a single user with an email and password (I used default@default.com)
+ - It should generate an Id for the user, copy the id and paste the following in your Database Rules
+
+ Link to Database Rules (replace PROJECT NAME) :https://console.firebase.google.com/project/{{YOUR_PROJECT_NAME}}/database/rules]:
 ```javascript
   {
     "rules": {
